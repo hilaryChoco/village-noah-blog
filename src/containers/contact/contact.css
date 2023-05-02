@@ -1,0 +1,103 @@
+.contact {
+    width: 100%;
+    background-color: #eef9fc;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact__header{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact__header h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.contact__infos{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0rem 3rem;
+    padding: 0.5rem;
+}
+
+.contact__infos .col-md-4{
+    background-color: #eef9fc;
+    height: 200px;
+    width: 450px;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+.contact__form{
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.contact__form p{
+    font-size: 18px;
+    color: #343434;
+    text-align: center;
+}
+
+.contact__form input{
+    height: 50px;
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__features {
+        flex-direction: column;
+    }
+
+    .gpt3__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .gpt3__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .contact__header{
+        height: 200px;
+    }
+    
+    .contact__header h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 490px ) {
+    .contact__header{
+        height: 100px;
+    }
+    
+    .contact__header h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .contact__infos{
+        margin: 0rem 0.5rem;
+    }
+
+    .contact__form p{
+        font-size: 14px;
+    }
+    
+}
